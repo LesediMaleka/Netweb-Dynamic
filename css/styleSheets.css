@@ -164,7 +164,7 @@ p{
   font-size: 14px;
   font-weight: 250;
   line-height: 18px;
-  text-align: justify;
+  text-align: left;
   text-size-adjust: 2px;
   margin: 20px;
   font-family: 'Questrial', sans-serif;
@@ -273,12 +273,13 @@ h4{
 }
 
 /* Services page*/
-.card{
+#ServicesCard{
   border: none;
 }
 .ServiceIcons{
-  font-size: 16px  !important;
+   width: 35vw;
   padding: 20px;
+  margin-top: 5vh;
 }
 
 
@@ -352,6 +353,13 @@ h4{
   padding: 15px;
  
 }
+/* Service page */
+.ServiceIcons{
+  width: 18vw;
+ margin-top: 1vh;
+ margin-left: 18vw;
+}
+
 
 /* Contact page */
 .FormButton{
@@ -394,13 +402,11 @@ h4{
       margin-top: 6vh;
     }
 
-    /* Index page */
+        /* Index page */
 
-.IndexFooter{
-  margin-top: 58vh;
-}
-
-
+    .IndexFooter{
+      margin-top: 58vh;
+    }
 
    /* About page : Logo position*/
    .NetWebDynamicsLogo{
@@ -419,21 +425,13 @@ h4{
       margin-left: 44vw;  
   }
 
-     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* Service page */
+  .ServiceIcons{
+    width: 10vw;
+  margin-top: 1vh;
+  margin-left: 4vw;
+  }
    /* delete part ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
    
 
