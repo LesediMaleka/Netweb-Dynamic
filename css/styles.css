@@ -139,6 +139,7 @@ body{
 .mobile-Nav{
   display: block;
   color: #050A30;
+ 
 }
 
 
@@ -287,47 +288,39 @@ h4{
   padding: 20px;
   margin-top: 1vh;
 }
+
 /* Projects page */
 .ProjectsCards{
   margin-left: 17vw;
   margin-top: 4vh;
   border: rgb(228, 53, 149) 1px solid;
+  width: 15rem;
 }
 
-/* delete part ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
-
-
 /*contact page */
+
+/* form section */
+.form-control{
+  background-color: rgb(222, 214, 226);
+  color: rgb(251, 255, 0);
+  font-weight: 400;
+}
 .FormButton{
   color:  rgb(186,215,223);
-  background-color: #050A30;
+  background-color: #cc558d;
   border-radius: 50px;
   font-weight: 600;
   width: 60vw;
   padding: 10px;
-  margin-left: 20vw;
+  margin-left: 17vw;
 }
+ /*Map */
+iframe{
+  margin-top: 2vh;
+  width:92vw;
+  height:55vh;
 
-/* form section */
-.form-control{
-  background-color: rgb(186,215,223);
-  color: #050A30;
-  font-weight: 400;
 }
-
-.form-controlTwo{
-  font-size: 14px;
-  border: none;
-  color:#050A30;
-  border-bottom: 1px solid #132743;
-  width: 80vw;
-  
-}
-
-
-
-
-
 
    /* ---media queries */
  
@@ -377,12 +370,24 @@ h4{
  margin-top: -0.5vh;
  margin-left: 18vw;
 }
+/* Projects page */
+.ProjectsCards{
+  margin-left: 15vw;
+  width: 13rem;
+}
 
 
 /* Contact page */
 .FormButton{
   width: 25vw;
   margin-left: 20vw;
+}
+
+ /*Map */
+ iframe{
+  width:63vw;
+  height:35vh;
+
 }
 
 
@@ -436,6 +441,10 @@ h4{
   .AboutFooter{
     margin-top: 6vh;
   }
+  /* Services page*/
+#ServicesCard{
+  margin-left: -2vw;
+}
    /* Footer section */
   .FooterIcon{
     margin-left: -4vw;
@@ -446,27 +455,30 @@ h4{
   }
 
 
-    /* Service page */
+  /* Service page */
   .ServiceIcons{
     width: 10vw;
   margin-top: 0.5vh;
   margin-left: 4vw;
   }
-   /* delete part ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-   
 
+  /* Projects page */
+  .ProjectsCards{
+  margin-left: 10vw;
+  }
+  .ProjectsCards:hover{
+    background-color: rgb(238, 122, 186);
+  }
 
-      /* Contact Page */
-    .FormButton{
-        width: 15vw;
-        margin-left: 12vw;
-    }  
-    iframe{
-      margin-top: 2vh;
-      width:45vw;
-      height :34.3vh;
-      
-    }
+    /* Contact Page */
+  .FormButton{
+      width: 15vw;
+      margin-left: 12vw;
+  }  
+  iframe{
+    width:97vw;
+    height :25vh;
+  }
      
  }
  @media screen and (min-width: 1200px) {
@@ -509,17 +521,18 @@ h4{
       margin-left: 46vw;  
   }
 
-/* delete part ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+    /* Projects page */
+    .ProjectsCards{
+      margin-left: 3.8vw;
+      }
+
 
   /* Contact page*/
   iframe{
-    width:40vw;
-    height :75vh;
+    width:96.5vw;
+    height :65vh;
     
   }
-
- 
- 
    }
   
  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}/* http://meyerweb.com/eric/tools/css/reset/ 
