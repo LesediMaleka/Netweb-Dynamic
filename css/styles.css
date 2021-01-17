@@ -137,7 +137,6 @@ body{
     font-size: 1.5em !important;
     margin-top: 2vh;
 }
-
 .mobile-Nav{
   display: block;
  
@@ -145,7 +144,6 @@ body{
 
 
 /* General classes */
-
 .hideMobile{
   display: none;
 }
@@ -157,11 +155,9 @@ strong{
 }
 
 /* icons */
-
 a{
   color: #212121;
 }
-
 a:hover{
   color: #318fb5;
 }
@@ -224,7 +220,7 @@ h4{
 }
 /*Desktop navbar */
 .navbar-expand-lg{
-  color: rgb(117, 110, 117) !important;
+  color: #212121 !important;
   font-size: 1.5em;
 }
 
@@ -234,7 +230,7 @@ h4{
   display: inline-block;
   font-size: 1.1em;
   border-radius: 50%;
-  color: rgb(124, 123, 122) !important;
+  color: #212121 !important;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -242,7 +238,6 @@ h4{
   
 }
 /* Social media icons on hover */
-
 .fa{
        -o-transition:.3s;
         -ms-transition:.3s;
@@ -251,13 +246,11 @@ h4{
         transition:.3s;
 }
 .fa-phone:hover {
-  /* color: #3361F5; */
   color: #4F7E71;  
 }
 .fa-envelope:hover {
   color: #E50914;
 }
-
 .fa-linkedin-in:hover{
   color: #21567E;
 }
@@ -278,7 +271,7 @@ h4{
   font-weight:400 ;
 }
 .CompanyName{
-  color:#e08340 !important;
+  color:rgb(223, 17, 86) !important;
 }
 .FooterText{
     margin-top: -3vh;
@@ -288,7 +281,7 @@ h4{
 
 /* indexx page */
 .IndexImage{
-  background-image: url(../assets/Images/Homepage/ae.jpg);
+  background-image: url(../assets/Images/Homepage/ab.jfif);
   background-repeat: no-repeat;
   opacity: 1;
 }
@@ -298,85 +291,6 @@ h4{
 .IndexFooter{
   margin-top: 25vh;
 }
-.HomeDiv{
-  margin: 0;
-  padding: 0;
-  margin-bottom: 0;
-  margin-top: -5vh;
-}
-.HomeDivs{
-  height: 45vh;
-}
-.InfoDiv{
-  margin: 0;
-  padding: 0;
-  z-index: 2;
-  transform: rotateZ(47deg);
-  margin-top: -60vh;
-  margin-left: -27vw;
-  width: 80vw;
-  height: 150vw;
-
-}
-
-.InfoText{
-  transform: rotateZ(-47deg);
-  padding: 5px;
-  height: 20vh;
-}
-.HomeHeading{
-  padding-top: 5px;
-  margin-left: 3vw;
-}
-.InfoButton{
-  color:  rgb(186,215,223);
-  background-color: #cc558d;
-  border-radius: 50px;
-  font-weight: 600;
-  width: 33vw;
-  padding: 5px;
-  margin-left: -2vw;
-  margin-top: 2vh;
-}
-
-/* Animation homepage */
-.BlockOne{
-  animation: slide 1s infinite;
-}
-
-.BlockTwo, .BlockThree{
-  animation: zip 1s infinite cubic-bezier(0.5, 0.82, 0.165, 1);
-}
-
-.BlockFour{
-  animation: move 0.8s ease-in-out infinite;
-}
-
-
-@keyframes slide{
-  0% {background-color: blue;}
-  50% {
-  background-color: cornflowerblue;}
-  100%{background-color: rgb(0, 110, 255);}
-
-  }
-
-  @keyframes zip{
-    0% {background-color:pink;}
-    100% {
-    background-color: crimson;}
-
-  }
-
-
-  @keyframes move{
-    0% {background-color:cornflowerblue;}
-    50% {
-    background-color: rgb(0, 110, 255);}
-    100%{background-color: blue;}
-  }
-
-
 /* About page : Logo position*/
 .NetWebDynamicsLogo{
   margin-left: 8vw;
@@ -401,7 +315,7 @@ h4{
 .ProjectsCards{
   margin-left: 17vw;
   margin-top: 4vh;
-  border: #318fb5 1px solid;
+  border: #318fb5 2px solid;
   background-color: #b0cac7;
   width: 15rem;
 }
@@ -550,21 +464,27 @@ iframe{
     margin-left: 17vw;
   }
 
-  /* .AboutFooter{
-    margin-top: 10vh;
-  } */
+  /* About footer */
+  .AboutFooter{
+    margin-top: -12vh !important;
+  }
   /* Services page*/
-#ServicesCard{
-  margin-left: -2vw;
-}
+    #ServicesCard{
+      margin-left: -2vw;
+    }
+    .ServicesFooter{
+      margin-top: -14vh !important;
+    }
    /* Footer section */
   .FooterIcon{
-    margin-left: -5vw;
+    margin-left: -3vw;
     margin-top: 14vh;
+    padding: 7px;
   }
   .FooterText{
-      margin-top: -5vh;
-      margin-left: 38vw;  
+      margin-top: -7vh;
+      margin-left: 38vw; 
+      padding: 14px; 
   }
 
 
@@ -579,6 +499,9 @@ iframe{
   .ProjectsCards{
   margin-left: 10vw;
   }
+  .ProjectFooter{
+    margin-top: -14vh;
+  }
   .ProjectsCards:hover{
     background-color:#b0cac7;
   }
@@ -591,6 +514,9 @@ iframe{
   iframe{
     width:97vw;
     height :25vh;
+  }
+  .ContactFooter{
+    margin-top: -12vh;
   }
      
  }
@@ -618,6 +544,10 @@ iframe{
   margin-top: -5vh;
   width: 60%;
   }
+    /* About footer */
+    .AboutFooter{
+      margin-top: -8vh !important;
+    }
 
   /* Index footer */
   .IndexFooter{
@@ -630,14 +560,17 @@ iframe{
     margin-left: -10vw;
   }
   .FooterText{
-      margin-top: -10vh;
+      margin-top: -12vh;
       margin-left: 40vw;  
   }
-
-    /* Projects page */
-    .ProjectsCards{
-      margin-left: 3.8vw;
-      }
+  /* Services page */
+  .ServicesFooter{
+    margin-top: -20vh !important;
+  }
+  /* Projects page */
+  .ProjectsCards{
+    margin-left: 3.8vw;
+    }
 
 
   /* Contact page*/
