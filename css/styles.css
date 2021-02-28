@@ -59,20 +59,19 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #b0cac7;
+    background-color: #d3f7f2;
     color: #212121;
     overflow-x: hidden; 
     overflow-y: hidden;
     text-align: left;
     font-family: 'Oswald', sans-serif;
-
 }
 
 
 /* Navbar for mobile view*/
 /* Logo Div */
 .MediaDiv{
-  z-index: 19;
+  z-index: One
 }
 .overlay{
     height: 100%;
@@ -83,7 +82,7 @@ body{
     left:-100vw;
     top: 0;
     left: 0;
-    background-color: #b0cac7;
+    background-color: #d3f7f2;
     color:#212121;
     overflow: hidden; 
     transition: 0.7s;
@@ -99,7 +98,7 @@ body{
     top: 25%;
     width: 100%; 
     text-align: center; 
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
   /* The navigation links inside the overlay */
@@ -127,7 +126,7 @@ body{
 /* Mobile Navbar */
 /* Navbar image */
 .NavbarImage{
-  width: 50%;
+  width: 85%;
   margin-top: 2vh;
 }
  /* burger navbar */
@@ -135,7 +134,7 @@ body{
   color: #212121 !important;
     margin-left: -5vw;
     font-size: 1.5em !important;
-    margin-top: 2vh;
+    margin-top: 6vh;
 }
 .mobile-Nav{
   display: block;
@@ -278,18 +277,108 @@ h4{
     
 }
 
+.dotOne{
+    height: 40px;
+    width: 40px;
+    background-color :#0e1527;
+    border-radius: 50%;
+    margin-bottom: -14vh;
+    margin-left: 15vw;
+    }
+.dotTwo {
+    height: 20px;
+    width: 20px;
+    background-color :rgb(218, 136, 211);
+    border-radius: 50%;
+    margin-top: 4vh;
+    margin-left: 80vw;
+    }
+.dotThree {
+  height: 60px;
+  width: 60px;
+  background-color :rgb(54, 15, 228);
+  border-radius: 50%;
+  margin-top: 16vh;
+  margin-left: 75vw;
+  }
+.dotFour {
+    height: 30px;
+    width: 30px;
+    background-color :#0eeed4;
+    border-radius: 50%;
+    margin-top: -20vh;
+    margin-left: 45vw;
+  }
 
-/* indexx page */
-.IndexImage{
-  background-image: url(../assets/Images/Homepage/ab.jfif);
-  background-repeat: no-repeat;
-  opacity: 1;
-}
+.dotSix {
+    height: 60px;
+    width: 60px;
+    background-color :rgb(218, 136, 211);
+    border-radius: 50%;
+    margin-bottom: 24vh;
+    margin-left: 15vw;
+    }  
+
+
+.dotEight {
+  height: 300px;
+  width: 300px;
+  background-color :#3fc5cf ;
+  border-radius: 50%;
+  margin-top: -90vh;
+  margin-left: 7vw;
+  animation: change infinite forwards 4s ease-in-out;
+  }
+
+  .dotSeven {
+    height: 20px;
+    width: 20px;
+    background-color : black;
+    border-radius: 50%;
+    transform: translate(65vw, -30vh);
+   
+    }
+
+.dotFive {
+  height: 30px;
+  width: 30px;
+  background-color :#0eb0f0;
+  border-radius: 50%;
+  margin-top: 55vh;
+  margin-left: 85vw;
+  }
+
+.title{
+    padding: 20px;
+    padding-top: 17vh;
+    font-family: 'Old Standard TT', serif !important;
+    font-style: italic;
+    color: #fff !important;
+    
+  }
+  
+ @keyframes change{
+   0%{
+     background-color: #3fc5cf ;
+   }
+   25%{
+    background-color: rgb(238, 18, 201);
+  }
+  50%{
+    background-color: #3fc5cf ;
+  }
+  75%{
+    background-color: pink;
+  }
+  100%{
+    background-color: rgb(56, 147, 199);
+  }
+ }
 .IndexTextBox{
-  margin-top: 22vh;
+  font-style: italic;
 }
 .IndexFooter{
-  margin-top: 25vh;
+  margin-top: 17vh;
 }
 /* About page : Logo position*/
 .NetWebDynamicsLogo{
@@ -297,6 +386,9 @@ h4{
   padding: 15px;
   width: 80%;
  
+}
+.AboutFooter{
+  margin-top: -4vh;
 }
 
 /* Services page*/
@@ -307,8 +399,11 @@ h4{
 .ServiceIcons{
    width: 35vw;
   padding: 20px;
-  margin-top: 1vh;
+  margin-bottom: 2vh;
  
+}
+.ServicesFooter{
+  margin-top: -6.5vh;
 }
 
 /* Projects page */
@@ -316,7 +411,7 @@ h4{
   margin-left: 17vw;
   margin-top: 4vh;
   border: #318fb5 2px solid;
-  background-color: #b0cac7;
+  background-color: #d3f7f2;
   width: 15rem;
 }
 .ProjectsCards:hover{
@@ -327,12 +422,12 @@ h4{
 
 /* form section */
 .form-control{
-  background-color:#8eb3ae;
-  color:#212121;
+  background-color:#b0cac7;
+  color: #212121;
   font-weight: 400;
 }
 .FormButton{
-  color:  #b0cac7;
+  color:#d3f7f2;
   background-color: #212121;
   border-radius: 50px;
   font-weight: 600;
@@ -348,7 +443,7 @@ iframe{
 
 }
 
-   /* ---media queries */
+ /* ---media queries */
  
  /* // Extra small devices (portrait phones, less than 576px) */
  /* // No media query for `xs` since this is the default in Bootstrap */
@@ -371,8 +466,16 @@ iframe{
 }
 /*Mobile View: burger navbar */
  .Bars{
-  margin-left: 5vw;
+  margin-left: 2vw;
+  margin-top: 4vh;
 }
+
+.dotEight {
+  height: 450px;
+  width: 450px;
+  margin-top: -80vh;
+  margin-left: 7vw;
+  }
 
 /*Footer section  */
 .FooterText{
@@ -381,18 +484,23 @@ iframe{
 /* Index page */
 
 .IndexFooter{
-  margin-top: 42vh;
+  margin-top: 15vh;
 }
 /* About page */
 .NetWebDynamicsLogo{
   margin-left: 10vw;
   padding: 15px;
   width: 60%;
- 
+}
+.AboutFooter{
+  margin-top: 4vh;
+}
+.AboutText{
+  padding: 20px;
 }
 /* Service page */
 .ServiceIcons{
-  width: 18vw;
+  width: 16vw;
  margin-top: -0.5vh;
  margin-left: 18vw;
 }
@@ -440,12 +548,12 @@ iframe{
 
     /*Desktop Navbar */
     #IndexDesktopNavbar{
-      transform: translateX(32vw);
-      margin-top: -6vh;
+      transform: translateX(34vw);
+      margin-top: 10vh;
     }
    .navbar-nav{
-      transform: translateX(32vw);
-      margin-top: 4vh;
+      transform: translateX(30vw);
+      margin-top: 10vh;
     }
    .DesktopLogo{
       margin-top: 6vh;
@@ -454,23 +562,82 @@ iframe{
         /* Index page */
 
     .IndexFooter{
-      margin-top: 44vh;
+      transform: translateY(-6vh);
     }
+    .dotSix {
+      height: 40px;
+      width: 40px;
+      margin-bottom: 34vh;
+      margin-left: 35vw;
+      } 
+  .dotNine {
+    height: 80px;
+    width: 80px;
+    background-color : rgb(6, 28, 124);
+    border-radius: 50%;
+    transform: translate(60vw, -65vh);
+    } 
+
+  .dotTen {
+    height: 40px;
+    width: 40px;
+    background-color : rgb(21, 193, 245);
+    border-radius: 50%;
+    transform: translate(20vw, 10vh);
+    } 
+    
+  .dotEleven {
+    height: 80px;
+    width: 80px;
+    background-color : rgb(0, 236, 177);
+    border-radius: 50%;
+    transform: translate(80vw, 5vh);
+    } 
+
+  .dotTwelve {
+    height: 40px;
+    width: 40px;
+    background-color : rgb(21, 245, 245);
+    border-radius: 50%;
+    transform: translate(40vw, -45vh);
+    } 
+
+    .dotThirten {
+      height: 40px;
+      width: 40px;
+      background-color : lightcoral;
+      border-radius: 50%;
+      transform: translate(30vw, -95vh);
+      } 
+      .title{
+        padding-top: 18vh;
+      }
+      
 
    /* About page : Logo position*/
    .NetWebDynamicsLogo{
-    padding-top: -4vh;
-    width: 70%;
+    padding-top: 14vh;
+    width: 90%;
     margin-left: 17vw;
+  }
+  .AboutText{
+    padding-top: 10vh;
   }
 
   /* About footer */
   .AboutFooter{
-    margin-top: -12vh !important;
+    top: 0vh !important;
+    transform: translateY(2vh);
+
   }
   /* Services page*/
     #ServicesCard{
       margin-left: -2vw;
+    }
+    .ServiceIcons{
+      width: 16vw;
+      transform: translateX(4vw);
+
     }
     .ServicesFooter{
       margin-top: -14vh !important;
@@ -482,7 +649,7 @@ iframe{
     padding: 7px;
   }
   .FooterText{
-      margin-top: -7vh;
+     transform: translateY(10vh);
       margin-left: 38vw; 
       padding: 14px; 
   }
@@ -538,6 +705,7 @@ iframe{
   .block{
     margin-top: -2vh;
   }
+
   /* About page : Logo position*/
   .NetWebDynamicsLogo{
   margin-left: 20vw;
@@ -546,24 +714,42 @@ iframe{
   }
     /* About footer */
     .AboutFooter{
-      margin-top: -8vh !important;
+      margin-top: -16vh !important;
     }
 
   /* Index footer */
   .IndexFooter{
     margin-top: 41vh;
   }
-
-
+  .title{
+    padding-top: 28vh;
+  }
+  .dotNine {
+    height: 40px;
+    width: 40px;
+    transform: translate(50vw, -75vh);
+  }
+  .dotTen {
+    transform: translate(20vw, 55vh);
+  }
+  .dotEleven {
+    transform: translate(80vw, 15vh);
+  }
+  .dotTwelve {
+    transform: translate(50vw, 15vh);
+    } 
   /* Footer section */
   .FooterIcon{
     margin-left: -10vw;
   }
   .FooterText{
-      margin-top: -12vh;
+    transform: translateY(-5vh);
       margin-left: 40vw;  
   }
   /* Services page */
+  .ServiceIcons{
+    width: 9vw;
+  }
   .ServicesFooter{
     margin-top: -20vh !important;
   }
