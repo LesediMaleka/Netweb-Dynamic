@@ -183,7 +183,13 @@ a:hover{
 ::-webkit-scrollbar-thumb:hover {
   background: aquamarine; 
 }
-
+/*default version*/
+@font-face {
+	font-family: 'CalibriRegular';
+  font-family: 'CalibriLight';
+	src: url('../assets/font/calibri-font-sv/CalibriRegular/CalibriRegular.ttf'); 
+	src: url('../assets/font/calibri-font-sv/CalibriLight/CalibriLight.ttf')
+}
 /* paragraph text for all the pages and sections */
 p{
   font-size: 16px;
@@ -192,7 +198,7 @@ p{
   text-align: left;
   text-size-adjust: 2px;
   margin: 20px;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'CalibriLight';
 }
 
 /* h tags */
@@ -233,7 +239,7 @@ h4{
   height: 40px;
   width: 40px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
   
 }
 /* Social media icons on hover */
@@ -397,10 +403,12 @@ h4{
   background-color: rgba(230, 180, 193, 0);
 }
 .ServiceIcons{
-   width: 35vw;
-  padding: 20px;
-  margin-bottom: 2vh;
- 
+   width: 40vw;
+  padding: 18px;
+  margin-bottom: 4vh;
+}
+.ServiceIcon{
+  padding-left: 5vw;
 }
 .ServicesFooter{
   margin-top: -6.5vh;
@@ -502,7 +510,7 @@ iframe{
 .ServiceIcons{
   width: 16vw;
  margin-top: -0.5vh;
- margin-left: 18vw;
+ margin-left: 21vw;
 }
 /* Projects page */
 .ProjectsCards{
@@ -616,9 +624,9 @@ iframe{
 
    /* About page : Logo position*/
    .NetWebDynamicsLogo{
-    padding-top: 14vh;
+    padding-top: 8vh;
     width: 90%;
-    margin-left: 17vw;
+    margin-left: 12vw;
   }
   .AboutText{
     padding-top: 10vh;
@@ -627,7 +635,8 @@ iframe{
   /* About footer */
   .AboutFooter{
     top: 0vh !important;
-    transform: translateY(2vh);
+    transform: translateY(-6vh);
+    margin-bottom: 0;
 
   }
   /* Services page*/
@@ -636,11 +645,11 @@ iframe{
     }
     .ServiceIcons{
       width: 16vw;
-      transform: translateX(4vw);
+      transform: translateX(-1vw);
 
     }
     .ServicesFooter{
-      margin-top: -14vh !important;
+      margin-top: -18vh !important;
     }
    /* Footer section */
   .FooterIcon{
@@ -649,7 +658,7 @@ iframe{
     padding: 7px;
   }
   .FooterText{
-     transform: translateY(10vh);
+     transform: translateY(-5vh);
       margin-left: 38vw; 
       padding: 14px; 
   }
@@ -658,7 +667,7 @@ iframe{
   /* Service page */
   .ServiceIcons{
     width: 10vw;
-  margin-top: 0.5vh;
+  margin-bottom: 0.9vh;
   margin-left: 4vw;
   }
 
@@ -709,12 +718,12 @@ iframe{
   /* About page : Logo position*/
   .NetWebDynamicsLogo{
   margin-left: 20vw;
-  margin-top: -5vh;
+  margin-top: 2vh;
   width: 60%;
   }
     /* About footer */
     .AboutFooter{
-      margin-top: -16vh !important;
+      margin-top: -10vh !important;
     }
 
   /* Index footer */
@@ -741,6 +750,7 @@ iframe{
   /* Footer section */
   .FooterIcon{
     margin-left: -10vw;
+    margin-bottom: -5vh;
   }
   .FooterText{
     transform: translateY(-5vh);
@@ -749,6 +759,8 @@ iframe{
   /* Services page */
   .ServiceIcons{
     width: 9vw;
+    margin-left: 10vw;
+    margin-top: -3vh;
   }
   .ServicesFooter{
     margin-top: -20vh !important;
