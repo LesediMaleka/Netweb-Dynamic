@@ -404,8 +404,8 @@ h4{
 }
 .ServiceIcons{
    width: 40vw;
-  padding: 18px;
-  margin-bottom: 2.5vh;
+  padding: 14px;
+  /* margin-bottom: 1.5vh; */
 }
 
 .ServicesFooter{
@@ -646,6 +646,13 @@ iframe{
       transform: translateX(-1vw);
 
     }
+
+     /* Service page */
+  .ServiceIcons{
+    width: 10vw;
+  margin-bottom: 0.9vh;
+  margin-left: 4vw;
+  }
     .ServicesFooter{
       margin-top: -18vh !important;
     }
@@ -662,12 +669,7 @@ iframe{
   }
 
 
-  /* Service page */
-  .ServiceIcons{
-    width: 10vw;
-  margin-bottom: 0.9vh;
-  margin-left: 4vw;
-  }
+ 
 
   /* Projects page */
   .ProjectsCards{
