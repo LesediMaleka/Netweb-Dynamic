@@ -405,16 +405,18 @@ h4{
 .ServiceIcons{
    width: 40vw;
   padding: 14px;
-  /* margin-bottom: 1.5vh; */
+}
+.ServiceCardBody{
+  height: 20vh;
 }
 
 .ServicesFooter{
-  margin-top: -12.5vh;
+  margin-top: -5vh;
 }
 
 /* Projects page */
 .ProjectsCards{
-  margin-left: 17vw;
+  margin-left: 18vw;
   margin-top: 4vh;
   border: #318fb5 2px solid;
   background-color: #d3f7f2;
@@ -493,13 +495,14 @@ iframe{
   margin-top: 15vh;
 }
 /* About page */
+
 .NetWebDynamicsLogo{
   margin-left: 10vw;
   padding: 15px;
   width: 60%;
 }
 .AboutFooter{
-  margin-top: 4vh;
+  margin-top: 6vh;
 }
 .AboutText{
   padding: 20px;
@@ -509,6 +512,13 @@ iframe{
   width: 16vw;
  margin-top: -0.5vh;
  margin-left: 21vw;
+}
+
+.ServiceCardBody{
+  height: 12vh;
+}
+.ServicesFooter{
+  margin-top: -2vh;
 }
 /* Projects page */
 .ProjectsCards{
@@ -568,7 +578,7 @@ iframe{
         /* Index page */
 
     .IndexFooter{
-      transform: translateY(-6vh);
+      transform: translateY(5vh);
     }
     .dotSix {
       height: 40px;
@@ -638,6 +648,10 @@ iframe{
 
   }
   /* Services page*/
+  /* .ServiceBodyDiv{
+    height: 75vh;
+    margin-bottom: 20vh;
+  } */
     #ServicesCard{
       margin-left: -2vw;
     }
@@ -650,7 +664,7 @@ iframe{
      /* Service page */
   .ServiceIcons{
     width: 10vw;
-  margin-bottom: 0.9vh;
+  margin-bottom: 1vh;
   margin-left: 4vw;
   }
     .ServicesFooter{
@@ -659,11 +673,11 @@ iframe{
    /* Footer section */
   .FooterIcon{
     margin-left: -3vw;
-    margin-top: 14vh;
+    margin-top: 25vh;
     padding: 7px;
   }
   .FooterText{
-     transform: translateY(-5vh);
+     transform: translateY(-10vh);
       margin-left: 38vw; 
       padding: 14px; 
   }
@@ -692,7 +706,7 @@ iframe{
     height :25vh;
   }
   .ContactFooter{
-    margin-top: -12vh;
+    margin-top: -23vh;
   }
      
  }
