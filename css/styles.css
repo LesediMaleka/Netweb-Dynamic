@@ -384,7 +384,7 @@ h4{
   font-style: italic;
 }
 .IndexFooter{
-  margin-top: 17vh;
+  margin-top: 24vh;
 }
 /* About page : Logo position*/
 .NetWebDynamicsLogo{
@@ -411,12 +411,12 @@ h4{
 }
 
 .ServicesFooter{
-  margin-top: -5vh;
+  margin-top: 1vh;
 }
 
 /* Projects page */
 .ProjectsCards{
-  margin-left: 18vw;
+  margin-left: 21vw;
   margin-top: 4vh;
   border: #318fb5 2px solid;
   background-color: #d3f7f2;
@@ -502,7 +502,7 @@ iframe{
   width: 60%;
 }
 .AboutFooter{
-  margin-top: 6vh;
+  margin-top: 4vh;
 }
 .AboutText{
   padding: 20px;
@@ -578,7 +578,7 @@ iframe{
         /* Index page */
 
     .IndexFooter{
-      transform: translateY(5vh);
+      transform: translateY(-10vh);
     }
     .dotSix {
       height: 40px;
@@ -677,7 +677,7 @@ iframe{
     padding: 7px;
   }
   .FooterText{
-     transform: translateY(-10vh);
+     transform: translateY(-4vh);
       margin-left: 38vw; 
       padding: 14px; 
   }
