@@ -495,7 +495,7 @@ iframe{
 /* Index page */
 
 .IndexFooter{
-  margin-top: 17vh;
+  margin-top: 20vh;
 }
 /* About page */
 
@@ -503,10 +503,10 @@ iframe{
   margin-left: 10vw;
   padding: 15px;
   width: 60%;
-  margin-top: 7vh;
+  margin-top: 6vh;
 }
 .AboutFooter{
-  margin-top: 4vh;
+  margin-top: 5vh;
 }
 .AboutText{
   padding: 20px;
@@ -514,7 +514,7 @@ iframe{
 /* Service page */
 .ServiceIcons{
   width: 16vw;
- margin-top: -0.5vh;
+ margin-top: -1.5vh;
  margin-left: 21vw;
  transform: translateY(-0.2vh);
 }
