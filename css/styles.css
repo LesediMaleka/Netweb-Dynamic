@@ -495,7 +495,7 @@ iframe{
 /* Index page */
 
 .IndexFooter{
-  margin-top: 15vh;
+  margin-top: 17vh;
 }
 /* About page */
 
@@ -503,6 +503,7 @@ iframe{
   margin-left: 10vw;
   padding: 15px;
   width: 60%;
+  margin-top: 7vh;
 }
 .AboutFooter{
   margin-top: 4vh;
@@ -515,7 +516,7 @@ iframe{
   width: 16vw;
  margin-top: -0.5vh;
  margin-left: 21vw;
- transform: translateY(-3vh);
+ transform: translateY(-0.2vh);
 }
 
 .ServiceCardBody{
