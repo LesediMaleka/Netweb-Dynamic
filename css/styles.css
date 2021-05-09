@@ -404,7 +404,9 @@ h4{
 }
 .ServiceIcons{
    width: 40vw;
-  padding: 14px;
+  padding: 18px;
+  font-size: 10px;
+  padding-bottom: 14px;
 }
 .ServiceCardBody{
   height: 20vh;
